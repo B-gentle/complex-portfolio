@@ -1,0 +1,21 @@
+.floaters{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: var(--box-shadow);
+    align-items: center;
+    height: 4.5rem;
+    padding: 0 28px;
+}
+
+.floaters span:nth-child(1){
+    font-size: 3rem;
+    align-self: center;
+    color: var(--second-layer-color);
+}
+
+.floaters span:nth-child(2){
+    font-size: 16px;
+    font-family: poppins;
+}
